@@ -1,0 +1,47 @@
+package collectiondemo.hashmapdemo;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+
+public class HashmapDemoOne {
+
+	public static void main(String[] args) {
+		HashMap hm = new HashMap();
+		hm.put(10, "A");
+		hm.put(11, "B");
+		hm.put(12, "C");
+		hm.put(13, "D");
+		hm.put(14, "E");
+		hm.put(15, "F");
+		hm.put(16, "G");
+		
+		
+		
+		//=============First Way===============
+		Set keys = hm.keySet();
+		for(Object key :keys) {
+			System.out.println(hm.get(key));
+		}
+		System.out.println(hm.get(12));
+		
+		//=============Second Way==============
+		Iterator itr = keys.iterator();
+		while(itr.hasNext()) {
+			itr.next();
+		}
+		
+
+		
+		
+
+		/*
+		 * Hash map is not a collection,
+		 * 
+		 * 
+		 * 
+		 */
+
+	}
+
+}

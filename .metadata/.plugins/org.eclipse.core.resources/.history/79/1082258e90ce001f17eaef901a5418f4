@@ -1,0 +1,6 @@
+package sujatainheritance;
+
+public class Deposite extends Bank{
+	
+
+}

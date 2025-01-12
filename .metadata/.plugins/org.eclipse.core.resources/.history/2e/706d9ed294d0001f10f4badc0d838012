@@ -1,0 +1,11 @@
+package practice.testcases;
+
+public class DeliverTestCases {
+
+	@Test
+	public void verifyMixtureIsdeliverableForpincode(){
+		System.out.print(pincode);
+	}
+	
+	
+}

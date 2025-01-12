@@ -1,0 +1,18 @@
+package collectiondemo.hashmapdemo;
+
+import java.util.ArrayList;
+
+public class TwoArrylist {
+
+	public static void main(String[] args) {
+	ArrayList<E> al = new ArrayList();
+	al.add(10);
+	al.add(11);
+	al.add(12);
+	al.add(13);
+	al.add(14);
+	
+
+	}
+
+}

@@ -1,0 +1,9 @@
+
+public class SelDemo {
+
+	public static void main(String[] args) {
+		System.setProperty("webDriver.chrome.driver", "C:\\Smita\\Java Sw\\chromedriver-win64.exe");
+		WebDriver driver = new ChromeDriver();
+		}
+
+}

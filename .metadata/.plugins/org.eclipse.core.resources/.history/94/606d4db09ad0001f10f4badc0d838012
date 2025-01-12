@@ -1,0 +1,16 @@
+package com.dataproviderdemo.dataproviders;
+
+import org.testng.annotations.DataProvider;
+
+public class DataProviders {
+	
+	@DataProvider(name="pincodes Data")
+	public String [][] pincodeData(){
+		String[][] pincodes = {{"565455"},{"686432"},{"565455"},{"686432"}};
+		return pincodes;		
+			
+}
+ public Object [][] usersData(){
+	 
+ }
+}

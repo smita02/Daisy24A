@@ -1,0 +1,19 @@
+package collectiondemo.hashmapdemo;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+public class ArraylistDemo {
+
+	public static void main(String[] args) {
+		
+		ArrayList al = new ArrayList();
+		al.add("Hello");
+		
+		Collection<E>  c = 
+		
+		
+
+	}
+
+}

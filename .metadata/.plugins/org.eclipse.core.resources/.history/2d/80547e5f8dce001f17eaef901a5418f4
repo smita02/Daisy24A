@@ -1,0 +1,6 @@
+package sujatainheritance;
+
+public class Bank {
+
+	 String AccName = "Smita"
+}

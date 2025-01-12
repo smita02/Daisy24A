@@ -1,0 +1,11 @@
+package dataprovidersDemo;
+
+import org.testng.annotations.DataProvider;
+
+public class DataProvider {
+
+
+	
+	}
+		
+}

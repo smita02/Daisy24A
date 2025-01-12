@@ -1,0 +1,10 @@
+package sujatainheritance;
+
+public class Deposite extends Bank{
+	double amt = 3343;
+	
+	public void depositeAMT() {
+		avlBal=avlBal+amt
+	}
+
+}
